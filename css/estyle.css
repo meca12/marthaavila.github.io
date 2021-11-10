@@ -1,0 +1,271 @@
+ /*===============================
+   global
+   =============================*/
+ 
+ body {
+     background: #000;
+     margin: 0;
+     color: white;
+     overflow-x: hidden;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Spartan', sans-serif;
+ }
+ 
+ p {
+     font-family: 'Josefin Sans', sans-serif;
+ }
+ 
+ .background {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -9999;
+ }
+ /*===============================
+ menu dos
+ =============================*/
+ 
+ .list-item {
+     text-decoration: none;
+     list-style-type: none;
+ }
+ 
+ .list-item>a {
+     color: white;
+ }
+ 
+ .tap-target {
+     background-color: #c51162 !important;
+     opacity: 1 !important;
+ }
+ /*===============================
+ inicio
+=============================*/
+ 
+ .brand-logo {
+     font-family: 'Anton', sans-serif;
+     color: white;
+     font-size: 30px;
+     margin-top: 60px;
+ }
+ 
+ nav ul {
+     font-family: 'Josefin Sans', sans-serif;
+ }
+ 
+ nav ul li:hover {
+     background-color: #ad1655;
+ }
+ 
+ nav .brand-logo {
+     font-family: 'Anton', sans-serif;
+ }
+ 
+ .btn {
+     font-family: 'Anton', sans-serif;
+ }
+ 
+ .collection.nav-left {
+     font-size: 45px;
+     margin-top: 35rem;
+ }
+ 
+ .collection a.icon-social {
+     text-align: center;
+     padding: 11px;
+ }
+ 
+ .sidenav.sidenav-fixed.social {
+     background-color: black;
+ }
+ 
+ .collection .collection-item {
+     border-bottom: 0px solid hsl(0, 0%, 88%) !important;
+     background-color: black !important;
+ }
+ 
+ .collection {
+     border: 0px solid hsl(0, 0%, 88%) !important;
+     border-bottom: 0px solid hsl(0, 0%, 88%) !important;
+ }
+ 
+ .nav-wrapper {
+     background-color: black !important;
+ }
+ 
+ .contacto {
+     border-radius: 50px !important;
+ }
+ 
+ .sidenav {
+     width: 100px !important;
+ }
+ 
+ .collection a.collection-item {
+     color: white !important;
+     transition: all 3s ease;
+ }
+ 
+ .collection a i:hover {
+     color: #8c19D8;
+ }
+ /*===============================
+   Sobre 
+   =============================*/
+ 
+ .sobre {
+     margin-top: 20%;
+ }
+ /*===============================
+ skills
+=============================*/
+ 
+ .skills {
+     margin-top: 20%;
+ }
+ /*===============================
+ portafolio
+ =============================*/
+ 
+ .portafolio {
+     margin-top: 20%;
+ }
+ 
+ .cards-container .card {
+     display: inline-block;
+     overflow: visible;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     .cards-container {
+         -webkit-column-count: 1;
+         -moz-column-count: 1;
+         column-count: 1;
+     }
+ }
+ 
+ @media only screen and (min-width: 601px) {
+     .cards-container {
+         -webkit-column-count: 2;
+         -moz-column-count: 2;
+         column-count: 2;
+     }
+ }
+ 
+ @media only screen and (min-width: 993px) {
+     .cards-container {
+         -webkit-column-count: 3;
+         -moz-column-count: 3;
+         column-count: 3;
+     }
+ }
+ 
+ .text-center {
+     text-align: center;
+ }
+ /*===============================
+ contato
+ =============================*/
+ 
+ .contact {
+     margin-top: 240px;
+ }
+ 
+ .fixed-action-btn.segundomenu {
+     margin-bottom: 525px;
+ }
+ 
+ .contactme>li>a {
+     color: white !important;
+     font-size: 20px !important;
+     text-decoration: none !important;
+ }
+ 
+ .socialcontact>a>.fab {
+     color: white !important;
+     font-size: 30px;
+     padding-left: 25px;
+ }
+ 
+ .socialcontact>a>.fab:hover {
+     color: aqua !important;
+ }
+ 
+ input,
+ textarea {
+     color: white !important;
+ }
+ /*===============================
+pie
+=============================*/
+ 
+ .page-footer {
+     background-color: #000000 !important;
+ }
+ 
+ .btn-floating.btn-large i {
+     font-size: 50px;
+     color: rgb(28, 228, 255);
+ }
+ 
+ .flotante {
+     background-color: transparent !important;
+ }
+ /*===============================
+mediaqueries
+ =============================*/
+ 
+ @media(min-width:480px) {
+     nav {
+         display: none !important;
+     }
+     .sidenav {
+         display: none !important;
+     }
+ }
+ 
+ @media(min-width:550px) {}
+ 
+ @media(min-width:576px) {
+     .sidenav {
+         display: none !important;
+     }
+ }
+ /* Medium devices (tablets, 768px and up)*/
+ 
+ @media (min-width: 768px) {
+     .sidenav {
+         display: none !important;
+     }
+ }
+ /* Large devices (desktops, 992px and up)*/
+ 
+ @media (min-width: 992px) {
+     .sidenav {
+         display: none !important;
+     }
+ }
+ /*X-Large devices (large desktops, 1200px and up)*/
+ 
+ @media (min-width: 1200px) {
+     .sidenav {
+         display: block !important;
+     }
+ }
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+ 
+ @media (min-width: 1400px) {
+     nav {
+         display: block !important;
+     }
+     .sidenav {
+         display: block !important;
+     }
+ }
